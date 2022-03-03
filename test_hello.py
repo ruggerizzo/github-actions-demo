@@ -10,3 +10,6 @@ def test_add_more():
 
 def test_add_azure():
     assert 99 == add(add(20,60), add(10,9))
+
+def test_add_gcp():
+    assert 23 == add(add(20,3), add(0,0))
